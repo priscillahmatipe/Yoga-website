@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,500;1,400&family=Playfair+Display:ital,wght@0,700;1,500&family=Yrsa:ital,wght@0,300;1,300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+
+.main-wrapper{
+    width: 100%;
+    background: url(./2.jpg);
+    height: 90vh;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+     
+}
+
+.box{
+    width: 80%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: rgb(189, 199, 117);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+h2{
+    font-family: "Playfair display",monospace;
+    font-weight: 700;
+    font-size: 3.rem;
+    margin: 10px 0;
+    width: 75%;
+}
+h5{
+    font-family: "Alegreya",monospace;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 10px 0;
+    width: 75%;
+}
+p{
+    font-family: "Yrsa",monospace;
+    width: 60%;
+}
+.buttons{
+    display: flex;
+}
